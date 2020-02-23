@@ -15,16 +15,16 @@ public class SumOfTwoDigits {
 
 
   public static void main(String[] args) {
-    System.out.println("Please input 2 digits");
+    // System.out.println("Please input 2 digits");
     Scanner sc = new Scanner(System.in);
     Integer firstDigit = sc.nextInt();
     Integer secondDigit = sc.nextInt();
     
-    System.out.println(Sum(firstDigit, secondDigit));
+    System.out.println(sum(firstDigit, secondDigit));
     sc.close();
   }
 
-  private static Integer Sum (Integer firstDigit, Integer secondDigit) {
+  public static Integer sum (Integer firstDigit, Integer secondDigit) {
     return firstDigit + secondDigit;
   }
 }
